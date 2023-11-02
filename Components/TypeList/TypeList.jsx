@@ -1,0 +1,9 @@
+function TypeList(){
+   
+
+    return (
+        <>
+        
+        </>
+        )
+    }
