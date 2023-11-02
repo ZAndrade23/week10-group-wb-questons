@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="Question1.js"></script>
+    <script src="Question2.js"></script>
+    <script src="Question3.js"></script>
+    <title>Whiteboard Questions #2</title>
+    <h1>Whiteboard Questions #2</h1>
+    <h3>See console for example output</h3>
+    <hr></hr>
+</head>
+<body>
+    <div>
+        <h2>Question 1</h2>
+        <h4>Move odd numbers back</h4>
+        <h5>Prompt:</h5>
+        <p>
+            Write a function that takes in an array of numbers and either the word 'odd' or 'even', and then returns a new array containing the same numbers, in the same order, but with all odd or even numbers (based on the word passed in) moved to the end of the array.
+            <br><br/>
+            Clarifications:
+            <br><br/>
+            Don't modify the input array!<br/>
+            Assume the array will only contain numbers<br/>
+            If the array is empty, should return an empty array<br/>
+            Numbers moved to the end should be in the order they originally appeared<br><br/>
+            Example test cases:<br><br/>
+
+            [ 0, 6, 3, 1, 4 ], even -> [ 3, 1, 0, 6, 4 ]<br/>
+            [ 0, 6, 3, 1, 4 ], odd -> [ 0, 6, 4, 3, 1 ]<br/>
+            [ ], odd -> [ ]
+        </p>
+    </div>
+    <hr></hr>
+    <div>
+        <h2>Question 2</h2>
+        <h4>Word Counter</h4>
+        <h5>Prompt:</h5>
+        <p>
+            Write a function that takes in two arguments, an array of strings and a string. The function should return the number of times the string is found in the array.Write a function that takes in two arguments, an array of strings and a string. The function should return the number of times the string is found in the array.<br><br/>
+
+            Example clarifying questions:<br><br/>
+            
+            Will they always be array of strings and a string? Yes.<br/>
+            May I use built in methods like .toLowercase()? Yes<br/>
+            Will the array always have strings? It may be empty, if it is, return 0.<br/>
+            Does capitalization matter? No. You may assume all characters are lowercase.<br/>
+            Example test cases:<br><br/>
+            
+            ["apple", "pizza", "orange", "apple", "sour apple"], "apple" -> 2<br/>
+            ["apple", "pizza", "orange", "apple", "sour apple"], "pizza" -> 1<br/>
+            ["apple", "pizza", "orange", "apple", "sour apple"], "sour" -> 0<br/>
+            ["sour", "soiree", "Sour", "sour", "sour"], "sour" -> 3<br/>
+            [], "banana" -> 0<br><br/>
+
+            Interviewer Note: To complicate the problem, allow letters to match even if one is capitalized.<br><br/>
+            
+            Example:<br><br/>
+            
+            ["sour", "soiree", "Sour", "sour", "sour"], "sour" -> 4<br><br/>
+        </p>
+    </div>
+    <hr></hr>
+    <div>
+        <h2>Question 3</h2>
+        <h4>Add up the numbers</h4>
+        <h5>Prompt:</h5>
+        <p>
+            Write a function that takes in a number. Return the sum of all the numbers from the first number passed in to the second number you passed in. For example, if we pass in 1 and 4, we'd return 1 + 2 + 3 + 4 = 10.<br><br/>
+
+            Example clarifying questions:<br><br/>
+
+            Can the number passed in be negative? No.<br/>
+            Can the number be zero? No.<br/>
+            Will it always be a number? Yes.<br/>
+            Example test cases:<br><br/>
+
+            addItUp(1, 4) -> 10<br/>
+            addItUp(2, 6) -> 20<br/>
+            addItUp(10,11) -> 21<br/>
+        </p>
+    </div>
+</body>
+</html>

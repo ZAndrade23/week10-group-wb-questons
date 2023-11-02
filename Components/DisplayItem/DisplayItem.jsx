@@ -1,9 +1,0 @@
-function DisplayItem(){
-   
-
-    return (
-        <>
-        
-        </>
-        )
-    }
